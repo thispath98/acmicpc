@@ -4,9 +4,7 @@ N = int(sys.stdin.readline())
 stat = [list(map(int, sys.stdin.readline().split())) for _ in range(N)]
 
 number_of_team_member = N // 2
-stat_combination = number_of_team_member * (number_of_team_member - 1)
-
-stat_gap = stat_combination * 99
+stat_gap = sys.maxsize
 
 team_combination = list(combinations(list(range(N)), number_of_team_member))
 
