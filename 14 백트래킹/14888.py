@@ -1,5 +1,5 @@
 # 문제 풀이 방법은 스스로 생각했지만 
-# https://velog.io/@kimdukbae/BOJ-14888-%EC%97%B0%EC%82%B0%EC%9E%90-%EB%81%BC%EC%9B%8C%EB%84%A3%EA%B8%B0-Python를 참고하였다.
+# https://velog.io/@kimdukbae/BOJ-14888-연산자-끼워넣기-Python 를 참고하였다.
 from itertools import permutations
 import sys
 
